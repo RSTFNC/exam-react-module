@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import AboutPage from './assets/AboutPage';
+import PersonCard from './assets/PersonCard';
 
 function App() {
   return (
